@@ -1,4 +1,3 @@
-// import user from './user.json';
 import css from './Profile.module.css';
 
 export const Profile = ({ userName, tag, location, avatar, stats }) => {
