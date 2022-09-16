@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/uncle-Stas/goit-react-hw-01-components.git/static/css/main.492925d2.css",
-    "main.js": "/uncle-Stas/goit-react-hw-01-components.git/static/js/main.d89d3107.js",
+    "main.css": "/uncle-Stas/goit-react-hw-01-components.git/static/css/main.5b809e0f.css",
+    "main.js": "/uncle-Stas/goit-react-hw-01-components.git/static/js/main.c39b6246.js",
     "index.html": "/uncle-Stas/goit-react-hw-01-components.git/index.html",
-    "main.492925d2.css.map": "/uncle-Stas/goit-react-hw-01-components.git/static/css/main.492925d2.css.map",
-    "main.d89d3107.js.map": "/uncle-Stas/goit-react-hw-01-components.git/static/js/main.d89d3107.js.map"
+    "main.5b809e0f.css.map": "/uncle-Stas/goit-react-hw-01-components.git/static/css/main.5b809e0f.css.map",
+    "main.c39b6246.js.map": "/uncle-Stas/goit-react-hw-01-components.git/static/js/main.c39b6246.js.map"
   },
   "entrypoints": [
-    "static/css/main.492925d2.css",
-    "static/js/main.d89d3107.js"
+    "static/css/main.5b809e0f.css",
+    "static/js/main.c39b6246.js"
   ]
 }
