@@ -1,0 +1,13 @@
+.tableRow {
+  color: #7e7e7e;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #ececec;
+}
+
+.tableData {
+  padding: 10px;
+  border: solid 1px #dddddd;
+  font-weight: 600;
+}
