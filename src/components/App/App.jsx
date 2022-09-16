@@ -1,8 +1,10 @@
 import { Section } from 'components/Section/Section';
 import { Profile } from 'components/Profile/Profile';
 import { Statistic } from 'components/Statistic/Statistic';
-import user from 'user';
-import data from 'data';
+import { FriendList } from 'components/FriendList/FriendList';
+import user from 'dataFiles/user';
+import data from 'dataFiles/data';
+import friends from 'dataFiles/friends';
 
 export const App = () => {
   return (
@@ -18,6 +20,9 @@ export const App = () => {
       </Section>
       <Section sectionTitle="Statistic">
         <Statistic title="Upload stats" stats={data} />
+      </Section>
+      <Section sectionTitle="Friends list">
+        <FriendList friends={friends} />
       </Section>
     </>
   );
