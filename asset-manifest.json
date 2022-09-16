@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/uncle-Stas/goit-react-hw-01-components.git/static/css/main.5e94550c.css",
-    "main.js": "/uncle-Stas/goit-react-hw-01-components.git/static/js/main.de428f5f.js",
+    "main.css": "/uncle-Stas/goit-react-hw-01-components.git/static/css/main.32907790.css",
+    "main.js": "/uncle-Stas/goit-react-hw-01-components.git/static/js/main.fed52a20.js",
     "index.html": "/uncle-Stas/goit-react-hw-01-components.git/index.html",
-    "main.5e94550c.css.map": "/uncle-Stas/goit-react-hw-01-components.git/static/css/main.5e94550c.css.map",
-    "main.de428f5f.js.map": "/uncle-Stas/goit-react-hw-01-components.git/static/js/main.de428f5f.js.map"
+    "main.32907790.css.map": "/uncle-Stas/goit-react-hw-01-components.git/static/css/main.32907790.css.map",
+    "main.fed52a20.js.map": "/uncle-Stas/goit-react-hw-01-components.git/static/js/main.fed52a20.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e94550c.css",
-    "static/js/main.de428f5f.js"
+    "static/css/main.32907790.css",
+    "static/js/main.fed52a20.js"
   ]
 }
