@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import css from './TransactionHistory.module.css';
 import { TableRow } from './TableRow';
 
@@ -26,4 +28,12 @@ export const TransactionHistory = ({ transactions }) => {
       </tbody>
     </table>
   );
+};
+
+// --------------------- PropTypes ----------------
+
+TableRow.propTypes = {
+  type: PropTypes.string.isRequired,
+  amount: PropTypes.string.isRequired,
+  currency: PropTypes.string.isRequired,
 };

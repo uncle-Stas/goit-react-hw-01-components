@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import css from './Statistic.module.css';
 import { StatsItem } from './StatsItem';
 
@@ -17,4 +19,11 @@ export const Statistic = ({ title, stats }) => {
       </ul>
     </div>
   );
+};
+
+// ------------------------- PropTypes -----------------
+
+StatsItem.propTypes = {
+  label: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
 };

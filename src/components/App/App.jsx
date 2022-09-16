@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import { Section } from 'components/Section/Section';
 import { Profile } from 'components/Profile/Profile';
 import { Statistic } from 'components/Statistic/Statistic';
@@ -14,7 +16,7 @@ export const App = () => {
     <>
       <Section sectionTitle="Profile">
         <Profile
-          userName={user.username}
+          username={user.username}
           tag={user.tag}
           avatar={user.avatar}
           location={user.location}
@@ -32,4 +34,50 @@ export const App = () => {
       </Section>
     </>
   );
+};
+
+// ------------------------- PropTypes -------------------
+
+Profile.propTypes = {
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string,
+  avatar: PropTypes.string.isRequired,
+  location: PropTypes.string,
+  stats: PropTypes.exact({
+    followers: PropTypes.number,
+    views: PropTypes.number,
+    likes: PropTypes.number,
+  }),
+};
+
+Statistic.propTypes = {
+  stats: PropTypes.arrayOf(
+    PropTypes.exact({
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+    })
+  ),
+};
+
+FriendList.propTypes = {
+  friends: PropTypes.arrayOf(
+    PropTypes.exact({
+      avatar: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      isOnline: PropTypes.bool.isRequired,
+      id: PropTypes.number.isRequired,
+    })
+  ),
+};
+
+TransactionHistory.propTypes = {
+  transactions: PropTypes.arrayOf(
+    PropTypes.exact({
+      id: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.string.isRequired,
+      currency: PropTypes.string.isRequired,
+    })
+  ),
 };
